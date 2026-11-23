@@ -1,0 +1,84 @@
+{
+  "title": "OpenWhip virtual keyboard test for Codex",
+  "rules": [
+    {
+      "description": "Control–Option–K types openwhip test in Codex",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "option"
+              ]
+            }
+          },
+          "to_if_alone": [
+            {
+              "key_code": "o",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "p",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "e",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "n",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "w",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "h",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "i",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "p",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "spacebar",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "t",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "e",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "s",
+              "hold_down_milliseconds": 20
+            },
+            {
+              "key_code": "t",
+              "hold_down_milliseconds": 20
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.openai\\.codex$"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
