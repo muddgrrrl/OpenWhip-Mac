@@ -1,7 +1,9 @@
+<p align="center">
+  <img src="readme-banner.png" width="920" alt="OpenWhip. Pick up, flick, and crack. Press Control–Option–W to pick up or drop the whip.">
+</p>
+
 <div align="center">
-  <img src="Assets/OpenWhipIcon.png" width="156" alt="OpenWhip app icon, a rainbow whip against a dark forest">
   <h1>OpenWhip for macOS</h1>
-  <p><strong>Pick up. Flick. Crack.</strong></p>
   <p>A native menu bar toy with rope physics, synthesized sound, and an optional nudge for your AI workspace.</p>
   <p><a href="https://github.com/muddgrrrl/OpenWhip-Mac/releases/latest"><strong>Download for macOS</strong></a> · <a href="#build-from-source">Build from source</a></p>
   <p>macOS 13+ · Apple silicon and Intel</p>
@@ -12,6 +14,8 @@
 1. Download `OpenWhip.pkg` from the latest release, install it, and open **OpenWhip** from Applications. The package is unsigned and the app is ad-hoc signed. You can also build locally from the source below.
 2. Left-click the menu bar icon or press **Control–Option–W** to pick up the whip.
 3. Flick your pointer back and forth to crack it. Click the overlay or press the shortcut again to drop it.
+
+## Settings
 
 | Setting | Options |
 | --- | --- |
