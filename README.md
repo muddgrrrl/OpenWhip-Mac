@@ -56,3 +56,10 @@ The build compiles a universal binary, runs the built-in checks, signs the app l
 ## Credits
 
 Inspired by [GitFrog1111’s OpenWhip](https://github.com/GitFrog1111/OpenWhip). This macOS implementation uses Swift and AppKit, its own rope simulation, and a synthesized crack.
+
+## Automated macOS verification
+
+GitHub Actions runs `bash ./build.sh` on macOS for pull requests and updates to
+the default branch. The build compiles both architectures, verifies the locally
+signed app, and runs the bundled self-test. Run the same command from the
+checkout to reproduce the check.
